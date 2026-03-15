@@ -6,16 +6,14 @@ cv:
   phone: "+20 1000767912"
   social_networks:
     - network: LinkedIn
-      username: Mahmoud Elhelaly
+      username: mahmoud--elhelaly
     - network: GitHub
       username: MGmahmoud
   
   sections:
     summary: 
       - >
-        Data Analyst with hands-on experience in building end-to-end data solutions. 
-        Expertise in designing databases, data warehouses, and ETL pipelines to 
-        transform raw data into actionable business insights via interactive dashboards.
+        Data tells stories... I remove the noise to ensure you can hear them clearly.
         
     experience:
       - company: High Solve Company
@@ -24,67 +22,66 @@ cv:
         start_date: 2025-06
         end_date: 2026-03
         highlights:
-          - Engineered an executive Power BI dashboard for Saudi Arabia–based automotive retail, enabling leadership to track KPIs across multiple branches.
-          - Optimized revenue tracking by building automated performance metrics, resulting in a [15%] improvement in decision-making speed.
-          - Developed automated data quality frameworks to audit ERP data entry, identifying and resolving [20%] of inconsistencies in sales records.
-          - Analyzed customer behavior trends to rank sales representative performance, providing insights that redirected marketing spend.
-
+          - Built Power BI dashboards for cars retail to track multi-branch KPIs.
+          - Created data quality frameworks to audit ERP entries, resolving 5% of data entery errors.
+          - Analyzed sales reps performance to provide accurate reports.
+          
       - company: NTI Summer Training Program
         position: Instructor - Data Analytics
         location: Hybrid
         start_date: 2025-07
         end_date: 2026-01
         highlights:
-          - Upskilled 90+ students in end-to-end data analytics workflows, including database design, ETL processes, and advanced visualization.
-          - Facilitated hands-on technical sessions in SQL, Python, and Power BI, guiding students through production-ready business solutions.
-
+          - Trained 90+ students in full-cycle data analytics, ETL, and database design.
+          - Led technical sessions in SQL, Python, and Power BI to build production-ready solutions.
+      
       - company: Freelance
         position: Data Analyst & BI Consultant
         location: Online
         start_date: 2025-02
         end_date: present
         highlights:
-          - Translated complex business requirements into scalable data models and interactive Power BI reports for diverse clients.
-          - Streamlined reporting workflows by integrating disparate data sources, reducing manual preparation time by [30%].
-
+          - Translated client requirements into scalable data models and Power BI reports.
+          - Streamlined reporting by integrating disparate data sources, reducing manual work by 30%.
+    
     projects:
       - name: Electronics Retail Performance & Forecast 
         link: https://www.youtube.com/watch?v=UiCx9nMZZIU
         highlights:
           - "**Tech Stack:** SQL Server, Power BI, DAX, Excel, Power Query"
-          - "**Problem:** Management couldn't identify which specific brands were dragging down overall profitability or failing to meet aggressive sales forecasts."
-          - "**Solution:** Built an interactive dashboard with drill-down capabilities to compare two years of historical data against real-time forecast KPIs."
-          - "**Impact:** Empowered executive management to **pivot procurement strategies by reducing stock for underperforming brands and negotiating higher volume discounts for brands consistently exceeding 100% of the forecast.**"
-      
+          - "**Problem:** Management lacked visibility into brand-level profitability and forecast variance."
+          - "**Solution:** Built a drill-down dashboard comparing YoY historical data to real-time KPIs."
+          - "**Impact:** Enabled data-driven procurement, optimizing stock and negotiating volume discounts."
+          
       - name: Retail Data Warehouse & Strategic Analytics
         link: https://github.com/MGmahmoud/SQL-Data-Warehouse-and-Analytics-Project
         highlights:
-          - "Architected an end-to-end Medallion Architecture (Bronze, Silver, Gold) to centralize disparate CSV exports from ERP and CRM systems into a unified source of truth."
-          - "Implemented a Star Schema data model optimized for complex analytical queries, reducing report generation time by [70%]."
-          - "**Tech Stack:** SQL Server, Dimensional Modeling, Advanced T-SQL, Medalline Archictecture "
-          - "**Problem:** Sales data was siloed in inconsistent CSV files with high duplication, making it impossible to generate reliable monthly reports on customer or product trends."
-          - "**Solution:** Engineered an automated ETL pipeline for data deduplication and cleansing, transforming raw files into high-performance Gold-layer data marts."
-          - "**Impact:** Delivered advanced analytics including **RFM Customer Segmentation and Product Analysis**, allowing the marketing team to target top-tier customers and optimize product catalogs based on revenue contribution."
+          - "**Tech Stack:** SQL Server, Star Schema, Advanced T-SQL, Medallion Arch"
+          - "**Problem:** Siloed CSVs from ERP/CRM caused data duplication and unreliable reporting."
+          - "**Solution:** Built an ETL pipeline to transform raw files into a Gold-layer SSOT."
+          - "**Impact:** Delivered RFM Segmentation and Pareto Analysis to optimize marketing spend."
+          - "Architected a Medallion DWH (Bronze/Silver/Gold) to centralize disparate retail sources."
+          - "Implemented a Star Schema model, reducing report generation latency by 70%."
           
       - name: HR Early Warning System (Employee Attrition)
         link: https://www.kaggle.com/code/mahmoudelhelaly/ibm-employee-attrition-analysis
         highlights:
-          - "Developed a predictive analytics solution to quantify and mitigate high employee turnover rates using a dataset of 1,400+ employee records."
-          - "Engineered a high-performance classification pipeline reaching 87% accuracy using XGBoost and Random Forest models."
-          - "**Tech Stack:** Python (Pandas, Scikit-Learn), Seaborn, XGBoost, Predictive Modeling"
-          - "**Problem:** The company suffered from high attrition but lacked the quantitative tools to identify root causes or predict which employees were at risk of leaving."
-          - "**Solution:** Conducted deep-dive EDA to identify 'High-Risk' segments (Sales and Lab Techs), uncovering that low salary and travel frequency were the primary churn drivers."
-          - "**Impact:** Built a proactive attrition prediction model that functions as an **early warning system**, allowing HR to implement targeted retention strategies (salary adjustments and travel caps) before high-value employees resign."
+          - "**Tech Stack:** Python (Scikit-Learn), XGBoost, Random Forest, Seaborn"
+          - "**Problem:** Lack of quantitative tools to identify attrition root causes or predict churn risk."
+          - "**Solution:** Performed EDA and built an XGBoost pipeline to identify high-risk employee segments."
+          - "**Impact:** Created an early warning system for HR to apply proactive retention strategies."
+          - "Developed a predictive model for employee turnover using a 1,400+ record dataset."
+          - "Achieved 87% accuracy in identifying key churn drivers like salary and travel frequency."
       
       - name: Enterprise Banking ETL & Dimensional Modeling
         link: https://github.com/MGmahmoud/Bank_DWH_ETL
         highlights:
-          - "Architected a high-availability ETL framework using Informatica PowerCenter to offload reporting workloads from core banking production systems."
-          - "Engineered a robust Dimensional Model (Star Schema) in Oracle Database, optimizing complex transactional data for rapid regulatory and monthly reporting."
-          - "**Tech Stack:** Informatica PowerCenter, Oracle SQL, PL/SQL, Dimensional Modeling"
-          - "**Problem:** Monthly transaction reporting was causing significant performance degradation on the core banking system, while poor data quality led to unreliable financial statements."
-          - "**Solution:** Built an automated ETL pipeline with built-in data validation logic to clean and move data into a dedicated reporting layer."
-          - "**Impact:** Improved reporting team efficiency by **10X** and eliminated production system downtime during month-end closing, ensuring 100% data accuracy for financial audits."
+          - "**Tech Stack:** Informatica PowerCenter, Oracle SQL, PL/SQL, Star Schema"
+          - "**Problem:** Core banking system degradation during month-end due to heavy reporting loads."
+          - "**Solution:** Built an offloaded ETL pipeline and Oracle reporting layer with data validation."
+          - "**Impact:** Improved reporting efficiency by 10X and ensured 100% audit-ready data accuracy."
+          - "Architected a high-availability Informatica framework to offload production workloads."
+          - "Engineered an Oracle Star Schema to optimize transactional data for regulatory reporting."
     
     tech_stack:
       - label: Business Intelligence & Tools
@@ -113,7 +110,7 @@ cv:
     
     languages:
       - label: Languages
-        details: "**Arabic:** Native          **English:** Professional"
+        details: "**Arabic:** Native \\hspace{1cm} **English:** Professional"
 
 design:
   theme: classic
